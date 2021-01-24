@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Техномарт</title>
+  </head>
+  <body>
+
+  <header>
+
+
+    <nav>
+      <a href="js/blank.htlm">Техномарт</a>
+      <a href="js/blank.htlm">Поиск</a>
+      <a href="js/blank.htlm">Закладки</a>
+      <a href="js/blank.htlm">Корзина</a>
+      <a href="js/blank.htlm">Оформить заказ</a>
+      <p><i>Интернет-магазин<br>
+      строительных материалов<br>и инструментов для ремонта</i></p>
+      <p>
+      +7 (812) 555-05-55 <br>
+      г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+      <a href="js/blank.htlm">Войти</a>
+      <a href="js/blank.htlm">Регистрация</a></p>
+      <ul>
+        <li><a href="js/blank.htlm">Главная</a></li>
+        <li><a href="js.blank.htlm">Компания</a></li>
+        <li><a href="js.catalog.htlm">Каталог</a></li>
+        <li><a href="js.blank.htlm">Новости</a></li>
+        <li><a href="js.catalog.htlm">Спецпредложения</a></li>
+        <li><a href="js.blank.htlm">Доставка</a></li>
+        <li><a href="js.blank.htlm">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+      <ul>
+        <li>Каталог</li>
+        <li>Инструмент</li>
+        <li>Перфораторы</li>
