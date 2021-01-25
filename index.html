@@ -7,14 +7,20 @@
   <body>
 
   <header>
-
-
-    <nav>
-      <a href="js/blank.htlm">Техномарт</a>
-      <a href="js/blank.htlm">Поиск</a>
-      <a href="js/blank.htlm">Закладки</a>
-      <a href="js/blank.htlm">Корзина</a>
-      <a href="js/blank.htlm">Оформить заказ</a>
+    <h1>ТЕХНОМАРТ</h1>
+    <section>
+      <form action="#" method="POST">
+        <input type="search" placeholder="Поиск:">
+      </form>
+      <form action="#" method="POST">
+        <input type="files" placeholder="Закладки:" value="Закладки: 0">
+      </form>
+      <form action="#" method="POST">
+        <input type="backet" placeholder="Корзина" value="Корзина: 0">
+      </form>
+      <form action="#" method="POST">
+        <input type="files" placeholder="Оформить заказ">
+      </form>
       <p><i>Интернет-магазин<br>
       строительных материалов<br>и инструментов для ремонта</i></p>
       <p>
@@ -22,66 +28,71 @@
       г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
       <a href="js/blank.htlm">Войти</a>
       <a href="js/blank.htlm">Регистрация</a></p>
-      <ul>
-        <li><a href="js/blank.htlm">Главная</a></li>
-        <li><a href="js/blank.htlm">Компания</a></li>
-        <li><a href="catalog.htlm">Каталог</a></li>
-        <li><a href="js/blank.htlm">Новости</a></li>
-        <li><a href="catalog.htlm">Спецпредложения</a></li>
-        <li><a href="js/blank.htlm">Доставка</a></li>
-        <li><a href="js/blank.htlm">Контакты</a></li>
-      </ul>
+      </section>
+      <nav>
+        <ul>
+          <li><a>Главная</a></li>
+          <li><a href="js/blank.htlm">Компания</a></li>
+          <li><a href="catalog.htlm">Каталог</a></li>
+          <li><a href="js/blank.htlm">Новости</a></li>
+          <li><a href="catalog.htlm">Спецпредложения</a></li>
+          <li><a href="js/blank.htlm">Доставка</a></li>
+          <li><a href="js/blank.htlm">Контакты</a></li>
+        </ul>
     </nav>
   </header>
   <main>
     <section>
-      <h2>Материалы</h2>
-      <a href="catalog.htlm">На любой вкус</a>
-    </section>
-    <section>
-      <h2>Инструменты</h2>
-      <a href="/catalog.htlm">На все случаи</a>
-    </section>
-    <section>
-      <h2>Техника</h2>
-      <a href="/catalog.htlm">Для стройки</a>
-    </section>
-    <section>
-      <h2>ПЕРФОРАТОРЫ</h2>
-      <a href="#">
-        <img src="img/#.jpg" width="626" height="272">
-      <p>Настоящие мужские игрушки</p>
-      <a href="catalog.htlm">Открыть каталог</a>
-    </section>
-    <section>
-      <h2>Скидки 50%</h2>
-      <a href="catalog.htlm">На 350 товаров</a>
-    </section>
-    <section>
-      <h2>Доставка</h2>
-      <a href="js/blank.htlm">Бесплатно</a>
-    </section>
+      <table>
+        <tr>
+          <th>Материалы
+          <a href="catalog.htlm">На любой вкус</a></th>
+          <th>Инструменты
+          <a href="/catalog.htlm">На все случаи</a></th>
+          <th>Техника
+          <a href="/catalog.htlm">Для стройки</a></th>
+        </tr>
+        <tr>
+          <th colspan="2" rowspan="2">ПЕРФОРАТОРЫ<br>
+            <p>Настоящие мужские игрушки</p>
+          <a href="#">
+          <img src="img/#.jpg" width="25" height="25">
+          <a href="catalog.htlm">Открыть каталог</a></th>
+          <th>Скидки 50%
+          <a href="catalog.htlm">На 350 товаров</a></th>
+        </tr>
+        <tr>
+          <th>Доставка
+          <a href="js/blank.htlm">Бесплатно</a></th>
+        </tr>
+      </table>
   </section>
-  <h1>ПОПУЛЯРНЫЕ ТОВАРЫ:<h1>
   <section>
+    <h2>ПОПУЛЯРНЫЕ ТОВАРЫ:<h2></h2>
     <a href="catalog.htlm">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
-    <a href="img/photo-1.htlm"><img scr="img/photo-1.jpg" name="Перфоратор BOSCH BFG 9000"></a><br>
-  <p>Перфоратор BOSCH BFG 9000<br>
-    32500 P.<br>
-  25500 Р.</p>
-    <a href="img/photo-2.htlm"><img scr="img/photo-2.jpg" name="Перфоратор BOSCH BFG 3000"></a><br>
-  <p>Перфоратор BOSCH BFG 3000<br>
-    22500 P.<br>
-  15500 Р.</p>
-    <a href="img/photo3.htlm"><img scr="img/photo-3.jpg" name="Перфоратор BOSCH BFG 6000"></a><br>
-  <p>Перфоратор BOSCH BFG 6000<br>
-    30500 P.<br>
-  25500 Р.</p>
-    <a href="img/photo-4.htlm"><img scr="img/photo-4.jpg" name="Перфоратор BOSCH BFG 2000"></a><br>
-  <p>Перфоратор BOSCH BFG 2000<br>
-    22500 P.<br>
-  12500 Р.</p>
-  <h1>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:<h1>
+    <form action="catalog.html" method="POST">
+    <label>
+      <img scr="img/photo-1.jpg" name="Перфоратор BOSCH BFG 9000">
+      <input type="radio" name="product">Перфоратор BOSCH BFG 9000<br>
+    <s>32500 P.</s><br>25500 Р.
+    </label>
+    <label>
+      <img scr="img/photo-2.jpg" name="Перфоратор BOSCH BFG 3000">
+      <input type="radio" name="product">Перфоратор BOSCH BFG 3000<br>
+    <s>22500 P.</s><br>15500 Р.
+    </label>
+    <label>
+      <img scr="img/photo-3.jpg" name="Перфоратор BOSCH BFG 6000">
+      <input type="radio" name="product">Перфоратор BOSCH BFG 6000<br>
+    <s>30500 P.</s><br>25500 Р.
+    </label>
+    <label>
+      <img scr="img/photo-4.jpg" name="Перфоратор BOSCH BFG 2000">
+      <input type="radio" name="product">Перфоратор BOSCH BFG 2000<br>
+      <s>22500 P.</s><br>12500 Р.
+      </label>
+    </form>
+  <h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:<h2>
     <a href="js/catalog.htlm">ВСЕ ПРОИЗВОДИТЕЛИ</a>
   <p>
     <a href="img/photo-5.htlm"><img src="img/photo-1.jpg" name="BOSCH"></a>
@@ -93,26 +104,106 @@
     <a href="img/photo-11.htlm"><img src="img/photo-7.jpg" name="AEG Power Solutions"></a>
     <a href="img/photo-12.htlm"><img src="img/photo-8.jpg" name="Metabo"></a>
   </p>
-  <h1>СЕРВИСЫ</h1>
+  <h2>СЕРВИСЫ</h2>
   <p> Хороший интернет-магазин отличается от плохого не только ценами!<br>
   Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
   <section>
     <a>Доставка</a>
     <a href="js/blank.htmL">Гарантия</a>
     <a href="js/blank.html">Кредит</a>
-  </section>
-
-  <h1>Доставка</h1>
+  <h2>ДОСТАВКА</h2>
   <p>Мы с удовольствием доставим ваш товар прямо<br>
     к вашему подъезду совершенно бесплатно!<br>
     Ведь мы неплохо заработаем,<br>
     поднимая его на ваш этаж!</p>
+  </section>
+  <section>
+    <h2>КОМПАНИЯ "ТЕХНОМАРТ"</h2>
+      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для <br>
+        ремонта и строительства не оставит равнодушными любителей сэкономить на<br>
+        гастарбайтерах</p>><br>
+
+      </p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+        Техномарт работает со многими транспортными компаниями:</p>
+        <ul>
+          <li>Деловые линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>
+        </ul>
+        <a href="js/blank.htlm">ПОДРОБНЕЕ О КОМПАНИИ</a>
+      <h2>КОНТАКТЫ</h2>
+        <p>Вы можете забрать товар сами,<br>
+        заехав в офис:</p>
 
   </main>
 
+  <footer>
+
+    <section>
+      <h1>ТЕХНОМАРТ</h1>
+      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+      +7(812) 555-05-55</p>
+    </section>
+
+    <ul>
+      <li>Компания</li>
+      <li><a href="js/blank.htlm">Новости</a></li>
+      <li><a href="catalog.htlm">Каталог</a></li>
+      <li><a href="js/blank.htlm">Доставка</a></li>
+      <li><a href="js/blank.htlm">Контакты</a></li>
+    </ul>
+
+    <ul>
+      <li><a href="catalog.html">Материалы</a></li>
+      <li><a href="catalog.htlm">Техника</a></li>
+      <li><a href="catalog.html">Инструмент</a></li>
+      <li><a href="index.html">Спецпредложения</a></li>
+    </ul>
+    <section>
+      <p>2010-2019 Компания "Техномарт"<br>
+      Все права защищены</p>
+
+      <img src="VK.jpg">
+      <img src="Facebook.jpg">
+      <img src="instagramm.jpg">
+      <p>
+        Обратная связь:
+        <a href="Mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      </p>
+
+      <p>
+        Разработано:
+        <a href="https://htmlacademy.ru">HTML Academy</a>
+      </p>
+
+    </section>
 
 
 
 
+  </footer>
+  <section>
+    <h2>Обратная связь</h2>
+      <p>
+        <label for="name-name">Ваше имя:</label>
+        <input id="login-name" type="text" name="name-name" placeholder="email@example.com" value="Имя фамилия">
+      </p>
+      <p>
+        <label for="email">Ваш e-mail:</label>
+        <input id="login-email" type="email" name="email" placeholder="••••••••" value="email@e[ample.com">
+      </p>
+      <p>
+        <label for="Letter">Текст письма:</label>
+        <input id="login-letter" type="text" name="letter" placeholder="••••••••" value="В свободной форме">
+      </p>
+      <p>
+      <button type="submit">Отправить</button>
+    </form>
+    <button type="button">Закрыть</button>
+  </section>
+  <section>
+      <img src="#" name="Карта">
+        <button type="button">Закрыть</button>
+      </section>
   </body>
 </html>
